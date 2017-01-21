@@ -30,7 +30,7 @@ into
 # Usage
 
 ```javascript
-import calc from 'glamor-calc-reduction;
+import calc from 'glamor-calc-reduction';
 import { plugins } from 'glamor';
 plugins.add(calc());
 ```
