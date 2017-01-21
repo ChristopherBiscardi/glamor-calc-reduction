@@ -1,0 +1,30 @@
+{
+  "name": "glamor-calc-reduction",
+  "version": "0.0.1",
+  "description": "calc() function reduction for glamor",
+  "main": "index.js",
+  "jsnext:main": "index.es.js",
+  "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+  "license": "MIT",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/ChristopherBiscardi/glamor-calc-reduction.git"
+  },
+  "bugs": "https://github.com/ChristopherBiscardi/glamor-calc-reduction/issues",
+  "scripts": {
+    "build": "babel index.es.js --out-file index.js",
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "reduce-css-calc": "^1.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-env": "^1.1.8",
+    "glamor": "^2.20.22",
+    "jest": "^18.1.0"
+  }
+}
